@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/style.css"></link>
+  <title>Document</title>
+</head>
+<body>
+  <!-- Div to hold our link to high scores -->
+<section>
+    <div class = "quiz results">
+        <div class = "correct-incorrect-container">
+            <div>
+                <h2>correct: <span class="correct">0</span></h2>
+                <h2>incorrect: <span class="incorrect">0</span></h2>
+            </div>
+
+        </div>
+    </div>
+</section>
+  <!-- Div to hold our timer -->
+  <h1 class="time" style="text-align: center;"></h1>
+  <div id="timer"></div>
+
+  <!-- Wrapper div to hold the rest of the content on our screen -->
+  <main>
+<section>
+    <div class = "Planets Quiz"></div>
+</section>
+    <!-- Div for the start screen -->
+<section>
+    <div class = "Start">
+        <button class = "Start-Button">Start Quiz</button>
+    </div>
+</section>    
+
+    <!-- Div for the questions -->
+
+<!-- create 5 questions about planets -->
+<section>
+    <div class = "questions"></div>
+</section>
+    <!-- Div for the end screen -->
+
+    <!-- Div to dynamically display feedback to the user -->
+</main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
