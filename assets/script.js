@@ -83,6 +83,26 @@ var myQuestions = [
     correctAnswer: 'c'
 }
 ];
+// lines 87-103 were for a radio button that did not work.  commented out for later. 
+//function showQuestions(questions,quizContainer){
+   // var output = [];
+   // var answers; 
+    //for (var i=0; i<questions.length; i++){
+       // answers = [];
+        //for(letter in questions[i].answers){
+           // answers.push(
+              //'<label>' + '<input type="radio" name="question'+i+'" value="'+letter+'">' + letter + ':' + questions[i].answers[letter] + '</label>'
+           // );
+        //}
+   //}
+//}
+//output.push(
+    //'<div class="questions">' + questions[i].question + '</div>' + '<div class="answers">' + answers.join('') + '</div>'
+
+//);
+//showQuestions(questions,quizContainer);
+
+
 // will need an event listener 
 // div for end of screen
 
